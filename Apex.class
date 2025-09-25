@@ -1,0 +1,15 @@
+public with sharing class ProjectScheduler {
+    public static void updateProjectStatus(Id projectId) {
+        List<Task_c> tasks = [SELECT Id, Statusc FROM Taskc WHERE Project_c = :projectId];
+        Boolean allComplete = true;
+        for(Task__c t : tasks){
+            if(t.Status__c != 'Completed'){
+                allComplete = false;
+                break;
+            }
+        }
+        Project_c proj = [SELECT Id, Statusc FROM Project_c WHERE Id = :projectId];
+        proj.Status__c = allComplete ? 'Completed' : 'In Progress';
+        update proj;
+    }
+}
