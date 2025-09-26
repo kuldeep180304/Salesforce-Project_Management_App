@@ -87,4 +87,5 @@ Goal: Deliver the final solution and showcase functionality.
 𝑩𝒖𝒊𝒍𝒕 𝒂𝒏𝒅 𝒎𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚 -- KULDEEP UPADHYAY
 
 
+# npm install
 
